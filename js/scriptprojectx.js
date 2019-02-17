@@ -5,11 +5,12 @@ window.addEventListener("load", () => {
 	const bodydark = document.getElementById("webbody")
 	const btndark = document.getElementById("btngit");
 	const fswap = document.getElementById("footerswp");
+	const indicadorswp = document.getElementById("indica");
 	const pjxtitles = document.querySelectorAll(".projetoxabouttitle");
 	const teste = document.querySelectorAll(".projetoxabouttext");
 	const swpdoc = document.querySelectorAll(".projetoxdoc");
 	const pjrules = document.querySelectorAll(".projetoxrules");
-	const indicadorswp = document.getElementById("indica");
+	
 
 	btnswap = 0;
 
