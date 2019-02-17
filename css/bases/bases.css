@@ -1,6 +1,7 @@
-body {
+.bodybg {
 	font-family: 'Roboto';
 	background: #fff;
+	transition: 400ms;
 }
 
 .container {
@@ -8,13 +9,34 @@ body {
 	margin: auto;
 }
 
-header {
-	background: #650396;
-}
-
-footer {
+.footerbg {
 	background: #650396;
 	margin: 0;
 	padding:0;
 	margin-top: 40px;
+	transition: 400ms;
+}
+
+.headerbg {
+	background: #650396;
+	transition: 400ms;
+}
+
+.darkfooter {
+	background: #070707;
+	margin: 0;
+	padding:0;
+	margin-top: 40px;
+	transition: 400ms;
+}
+
+.darknav {
+	background: #070707;
+	transition: 400ms;
+}
+
+.darkbody {
+	font-family: 'Roboto';
+	background: #111111;
+	transition: 400ms;
 }

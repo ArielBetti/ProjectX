@@ -21,6 +21,7 @@
 	background-color: rgba(125, 18, 188,0.8);
   	height: 100%;
   	width: 100%;
+  	transition: 400ms;
 }
 
 .about-projetox {

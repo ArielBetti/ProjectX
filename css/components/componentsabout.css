@@ -11,6 +11,7 @@
 	font-size: 2.25em;
 	margin-top: 50px;
 	text-align: center;
+	transition: 400ms;
 }
 
 .projetoxrules > .projetoxabouttitle::after {
@@ -19,6 +20,7 @@
 	background: #650396;
 	height: 3px;
 	width: 100%;
+	transition: 400ms;
 }
 
 .projetoxrules::after {
@@ -28,6 +30,7 @@
 	height: 3px;
 	width: 100%;
 	margin-top: 20px;
+	transition: 400ms;
 }
 
 .projetoxrules > .projetoxabouttext {
@@ -36,6 +39,7 @@
 	color: #000;
 	line-height: 1.15em;
 	text-align: center;
+	transition: 400ms;
 }
 
 .projetoxrules > .projetoxdocs {
@@ -54,4 +58,5 @@
 	padding: 10px;
 	border-radius: 5px;
 	text-decoration: none;
+	transition: 400ms;
 }

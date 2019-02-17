@@ -48,3 +48,36 @@
 .navigationmenu > .navitem:hover::after {
 	transform: scaleX(1);
 }
+
+.navigationmenu > .botaoswap {
+	border: 1px solid #fff;
+	background: transparent;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.navigationmenu > .botaoswap .indicador {
+	content: '';
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+	margin-right: 3px;
+	transform: translateY(-2px);
+	background: #a4a4a4;
+	border-radius: 50px;
+	transition: 400ms;
+}
+
+.navigationmenu > .botaoswap .indicadoron {
+	content: '';
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+	margin-right: 3px;
+	transform: translateY(-2px);
+	background: #32ff00;
+	border-radius: 50px;
+	transition: 400ms;
+}
