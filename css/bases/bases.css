@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .bodybg {
 	font-family: 'Roboto';
 	background: #fff;
@@ -39,4 +43,8 @@
 	font-family: 'Roboto';
 	background: #111111;
 	transition: 400ms;
+}
+
+._hideon {
+	display: none !important;
 }
