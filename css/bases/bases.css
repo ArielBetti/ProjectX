@@ -27,7 +27,7 @@ html {
 }
 
 .darkfooter {
-	background: #070707;
+	background: rgb(33, 33, 33);
 	margin: 0;
 	padding:0;
 	margin-top: 40px;
@@ -35,13 +35,13 @@ html {
 }
 
 .darknav {
-	background: #070707;
+	background: rgb(33, 33, 33);
 	transition: 400ms;
 }
 
 .darkbody {
 	font-family: 'Roboto';
-	background: #111111;
+	background: #1b1b1b;
 	transition: 400ms;
 }
 
