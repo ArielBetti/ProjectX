@@ -107,6 +107,7 @@
 	align-items: center;
 	flex-direction: column;
 	padding: 25px;
+	text-align: center;
 }
 
 .contatocontainer >.title {
@@ -137,6 +138,8 @@
 	font-weight: bold;
 	margin: 20px;
 	background-color: transparent;
+	width: 100%;
+	max-width: 320px;
 }
 
 .labelcontato {
@@ -164,6 +167,43 @@
 	color: #fff;
 	font-weight: bold;
 	cursor: pointer;
+	font-weight: bold;
+}
+
+.captcha {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.containerbox {
+	background-color: transparent;
+	height: 20px;
+	width: 20px;
+	content: "";
+	display: block;
+	border-radius: 50px;
+	position: relative;
+	border: 3px solid rgb(125, 18, 188);
+}
+
+.cbox {
+	z-index: 99999;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	left: 0; 
+}
+.captchatext {
+	padding:10px;
+	font-size: 1.25em;
+	color: #000;
+}
+
+.capOn {
+	background-color: #32ff00;
 }
 
 @media (max-width: 1099px) {
