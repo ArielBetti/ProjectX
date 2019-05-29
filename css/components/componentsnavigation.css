@@ -90,8 +90,44 @@
 	transition: 400ms;
 }
 
+.containerindicador {
+	padding-top: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row; 
+	cursor: pointer;
+}
+
+.indicamenu {
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+	transition: 760ms;
+
+}
+
+@media(min-width: 700px) {
+	.containerindicador {
+		display: none;
+	}
+}
+
 @media(max-width: 699px) {
-	.navigationmenu {
+
+	.navigation-projetox {
 		flex-direction: column;
+		padding: 10px 0px 0px 0px;
+	}
+	
+	.navigationmenu > .mobile{
+		flex-direction: column;
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+		transition: 500ms ;
 	}
 }

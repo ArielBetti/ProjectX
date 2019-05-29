@@ -202,10 +202,6 @@
 	color: #000;
 }
 
-.capOn {
-	background-color: #32ff00;
-}
-
 @media (max-width: 1099px) {
 	.about-projetox {
 		flex-direction: column;
