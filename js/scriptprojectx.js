@@ -132,12 +132,17 @@ window.addEventListener("load", () => {
 
 	radiobtn.addEventListener('click', (e) => {
 		if(radiobtn.checked == true) {
-			togglecap.classList.add("capOn");
+			togglecap.classList.add("_capOn");
 			validamsg.innerText = "Validado";
 		}else {
-			togglecap.classList.remove("capOn");
+			togglecap.classList.remove("_capOn");
 			validamsg.innerText = "Selecione para validar";
 		}
+	});
+
+	ativamob.addEventListener('click', (e) => {
+		arrowmenu.classList.toggle("_deg");
+		navmob.classList.toggle("_ativamenu")
 	});
 
 });
