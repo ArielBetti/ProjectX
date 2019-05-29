@@ -5,6 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="Shortcut icon" href="img/icons/logo.svg">
 	<link rel="stylesheet" type="text/css" href="css/generic/reset.css">
+	<link rel="stylesheet" href="css/trumps/helpers.css">
 	<link rel="stylesheet" type="text/css" href="css/bases/bases.css">
 	<link rel="stylesheet" type="text/css" href="css/objects/objects.css">
 	<link rel="stylesheet" type="text/css" href="css/components/componentsnavigation.css">
@@ -27,7 +28,11 @@
 			<div class="logo">
 				<a href="#" tabindex="-1">Projeto<span class="-logoaction">X</span></a>
 			</div>
-			<div class="navigationmenu">
+			<div id="ativamob" class="containerindicador" title="Aperte para abrir menu">
+				<p>Menu</p>
+				<img id="arrowmenu" class="indicamenu" src="img/icons/indicador.svg" alt="Seta indicadora de menu">
+			</div>
+			<div id="navmob" class="navigationmenu mobile">
 				<a class="navitem" href="#" alt="Ir para Inicio" tabindex="1">Inicio</a>
 				<a class="navitem" href="#Sobre" alt="Ir para Sobre" tabindex="2">Sobre</a>
 				<button tabindex="3" class="botaoswap navitem" id="btnaltera"><span id="indica"
@@ -52,6 +57,7 @@
 				<a class="item" href="#Regras">Ir para Regras</a>
 				<a class="item" href="#Documentacao">Ir para Documentaçao</a>
 				<a class="item" href="#Sobre">Ir para Sobre</a>
+				<a class="item" href="#Contato">Ir para Contato</a>
 			</div>
 		</section>
 
