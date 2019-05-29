@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
 	const btndark = document.getElementById("btngit");
 	const fswap = document.getElementById("footerswp");
 	const indicadorswp = document.getElementById("indica");
-	const acessivel = document.getElementById("acessivel");
+	const togglecap = document.getElementById("capswitch");
 	const pjxtitles = document.querySelectorAll(".projetoxabouttitle");
 	const teste = document.querySelectorAll(".projetoxabouttext");
 	const swpdoc = document.querySelectorAll(".projetoxdoc");
@@ -38,6 +38,8 @@ window.addEventListener("load", () => {
 		enpt.classList.toggle("darkinput");
 		imsg.classList.toggle("darktitle");
 		tmsg.classList.toggle("darkmsg");
+		capswitch.classList.toggle("darkmsg")
+		validamsg.classList.toggle("darksubtitle")
 		bcontato.classList.toggle("darkbg")
 		indicadorswp.classList.remove("indicador");
 		fswap.classList.remove("footerbg");
@@ -127,5 +129,15 @@ window.addEventListener("load", () => {
 	document.addEventListener('dblclick', (e) => {
 		menuacess.classList.add("_hideon");
 	})
+
+	radiobtn.addEventListener('click', (e) => {
+		if(radiobtn.checked == true) {
+			togglecap.classList.add("capOn");
+			validamsg.innerText = "Validado";
+		}else {
+			togglecap.classList.remove("capOn");
+			validamsg.innerText = "Selecione para validar";
+		}
+	});
 
 });
