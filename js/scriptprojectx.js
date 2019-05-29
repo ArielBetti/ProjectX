@@ -32,6 +32,13 @@ window.addEventListener("load", () => {
 			pjxtitles[i].classList.remove("projetoxabouttitle")
 		}
 
+		ctitle.classList.toggle("darktitle");
+		cstitle.classList.toggle("darksubtitle");
+		inpt.classList.toggle("darkinput");
+		enpt.classList.toggle("darkinput");
+		imsg.classList.toggle("darktitle");
+		tmsg.classList.toggle("darkmsg");
+		bcontato.classList.toggle("darkbg")
 		indicadorswp.classList.remove("indicador");
 		fswap.classList.remove("footerbg");
 		btndark.classList.remove("btnprojetox");
