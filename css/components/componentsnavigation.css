@@ -110,6 +110,16 @@
 
 }
 
+.btnfontes {
+	border: 3px solid #fff;
+	font-size: 1.25em;
+	background-color: transparent;
+	font-weight: bold;
+	border-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
 @media(min-width: 700px) {
 	.containerindicador {
 		display: none;
@@ -123,6 +133,10 @@
 		padding: 10px 0px 0px 0px;
 	}
 	
+	.fontes {
+		padding: 20px 10px;
+	}
+
 	.navigationmenu > .mobile{
 		flex-direction: column;
 		height: 0;
