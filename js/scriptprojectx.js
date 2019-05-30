@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
 	const teste = document.querySelectorAll(".projetoxabouttext");
 	const swpdoc = document.querySelectorAll(".projetoxdoc");
 	const pjrules = document.querySelectorAll(".projetoxrules");
-	
+
 
 
 	btnswap = 0;
@@ -131,10 +131,10 @@ window.addEventListener("load", () => {
 	})
 
 	radiobtn.addEventListener('click', (e) => {
-		if(radiobtn.checked == true) {
+		if (radiobtn.checked == true) {
 			togglecap.classList.add("_capOn");
 			validamsg.innerText = "Validado";
-		}else {
+		} else {
 			togglecap.classList.remove("_capOn");
 			validamsg.innerText = "Selecione para validar";
 		}
@@ -143,6 +143,27 @@ window.addEventListener("load", () => {
 	ativamob.addEventListener('click', (e) => {
 		arrowmenu.classList.toggle("_deg");
 		navmob.classList.toggle("_ativamenu")
+	});
+
+});
+
+$(document).ready((e) => {
+	function fonte(e) {
+		const elemento = $(".alterafonte");
+		const fonte = elemento.css('font-size');
+		if (e == 'a') {
+			elemento.css("fontSize", parseInt(fonte) + 3);
+		} else if ('d') {
+			elemento.css("fontSize", parseInt(fonte) - 3);
+		}
+	}
+
+	$("#aumenta").click((e) => {
+		fonte('a');
+	});
+
+	$("#diminui").click((e) => {
+		fonte('b');
 	});
 
 });
