@@ -153,7 +153,7 @@ $(document).ready((e) => {
 		const fonte = elemento.css('font-size');
 		if (e == 'a') {
 			elemento.css("fontSize", parseInt(fonte) + 3);
-		} else if ('d') {
+		} else if ('b') {
 			elemento.css("fontSize", parseInt(fonte) - 3);
 		}
 	}
